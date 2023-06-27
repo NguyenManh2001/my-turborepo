@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button, Header } from "ui";
 
 export default function Page() {
@@ -5,6 +6,7 @@ export default function Page() {
     <>
       <Header text="Web" />
       <Button />
+      <Link href="/test">link</Link>
     </>
   );
 }
